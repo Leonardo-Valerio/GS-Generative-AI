@@ -88,3 +88,12 @@ if st.sidebar.button("🚨 Analisar Prioridade de Resgate"):
 
     st.markdown("---")
     st.write("**Dados Brutos Recebidos:**", input_data)
+
+# --- A MÁGICA DA TELA INICIAL (EMPTY STATE) ---
+else:
+    st.info("📡 **SISTEMA EM PRONTIDÃO**")
+    st.write("O Centro de Controle LEO está operante e aguardando interceptação de sinais SOS...")
+    st.markdown("👈 *Configure os parâmetros de telemetria no painel lateral e clique em **Analisar Prioridade de Resgate** para iniciar a triagem da Inteligência Artificial.*")
+    
+    # Ícone centralizado para dar um visual legal de "esperando"
+    st.markdown("<h1 style='text-align: center; color: grey; font-size: 80px;'>🛰️🌍</h1>", unsafe_allow_html=True)
