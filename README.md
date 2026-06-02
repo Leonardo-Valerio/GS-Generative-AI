@@ -47,5 +47,14 @@ Siga os passos abaixo para rodar o pipeline de treinamento e o Dashboard do Cent
 
 **1. Clone o repositório:**
 ```bash
-git clone [https://github.com/SEU-USUARIO/safeorbit-ai.git](https://github.com/SEU-USUARIO/safeorbit-ai.git)
+git clone [[https://github.com/SEU-USUARIO/safeorbit-ai.git](https://github.com/SEU-USUARIO/safeorbit-ai.git](https://github.com/Leonardo-Valerio/GS-Generative-AI)
 cd safeorbit-ai
+````
+
+## Link do Projeto
+https://gs-generative-ai-lwgyd6tyeqtgadyzyecziv.streamlit.app/
+
+## Imagens do Projeto
+<img width="1911" height="851" alt="image" src="https://github.com/user-attachments/assets/f4cb19a5-8fe4-41b6-b2fd-dfaea6a8ca13" />
+<img width="1899" height="863" alt="image" src="https://github.com/user-attachments/assets/6ba9559c-31d9-4526-a743-fb3493849ad1" />
+
