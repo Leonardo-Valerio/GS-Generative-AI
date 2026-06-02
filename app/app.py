@@ -1,15 +1,23 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os # <-- Adicionado para lidar com caminhos de pastas
 
 # 1. Configuração da Página
 st.set_page_config(page_title="SafeOrbit - Centro de Controle", page_icon="🚀", layout="wide")
 
-# 2. Carregar o Modelo e as Colunas
+# 2. Carregar o Modelo e as Colunas (ATUALIZADO PARA A NUVEM)
 @st.cache_resource
 def load_model():
-    model = joblib.load('safeorbit_xgboost.pkl')
-    cols = joblib.load('colunas_modelo.pkl')
+    # Descobre a pasta exata onde este arquivo (app.py) está rodando
+    pasta_atual = os.path.dirname(os.path.abspath(__file__))
+    
+    # Monta o caminho completo até os arquivos .pkl
+    caminho_modelo = os.path.join(pasta_atual, 'safeorbit_xgboost.pkl')
+    caminho_colunas = os.path.join(pasta_atual, 'colunas_modelo.pkl')
+    
+    model = joblib.load(caminho_modelo)
+    cols = joblib.load(caminho_colunas)
     return model, cols
 
 modelo, colunas_treino = load_model()
