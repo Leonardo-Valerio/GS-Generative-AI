@@ -40,6 +40,8 @@ Para garantir que o Centro de Controle possa auditar as decisões da IA, aplicam
 1. **Frequência Cardíaca:** Principal gatilho para a prioridade `Crítica` (coração parando ou em taquicardia severa).
 2. **Altitude e Temperatura:** Cruzamento essencial para prever risco de Mal da Montanha e Hipotermia.
 3. **Bateria do Beacon:** Peso alto para acelerar despachos antes da perda definitiva de telemetria satelital.
+4. <img width="790" height="722" alt="image" src="https://github.com/user-attachments/assets/6fb89991-5496-4241-8ef5-9060c6578d0a" />
+
 
 ## 🛠️ Instruções para Execução do Projeto
 
@@ -59,9 +61,9 @@ https://gs-generative-ai-lwgyd6tyeqtgadyzyecziv.streamlit.app/
 <img width="1899" height="863" alt="image" src="https://github.com/user-attachments/assets/6ba9559c-31d9-4526-a743-fb3493849ad1" />
 
 ## Participantes
-Leonardo Valério - RM550988
-Breno Silva - RM97864
-Enrico Marquez - RM99325
-Gustavo Dias - RM550820
+Leonardo Valério - RM550988 / 
+Breno Silva - RM97864 / 
+Enrico Marquez - RM99325 / 
+Gustavo Dias - RM550820 / 
 Joel Barros - RM550378
 
