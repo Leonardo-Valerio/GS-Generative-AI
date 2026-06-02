@@ -58,3 +58,10 @@ https://gs-generative-ai-lwgyd6tyeqtgadyzyecziv.streamlit.app/
 <img width="1911" height="851" alt="image" src="https://github.com/user-attachments/assets/f4cb19a5-8fe4-41b6-b2fd-dfaea6a8ca13" />
 <img width="1899" height="863" alt="image" src="https://github.com/user-attachments/assets/6ba9559c-31d9-4526-a743-fb3493849ad1" />
 
+## Participantes
+Leonardo Valério - RM550988
+Breno Silva - RM97864
+Enrico Marquez - RM99325
+Gustavo Dias - RM550820
+Joel Barros - RM550378
+
